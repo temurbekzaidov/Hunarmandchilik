@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milliy Hunarmandchilik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Usta Qo'li</h1>
+            <nav>
+                <a href="#haqida">Biz haqimizda</a>
+                <a href="#mahsulotlar">Ishlarimiz</a>
+                <a href="#aloqa">Aloqa</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="haqida" class="hero">
+        <div class="container">
+            <h2>An'anaviy san'at va zamonaviy nafislik</h2>
+            <p>Har bir buyum usta qalbi va qo'l mehnati bilan yaratilgan yagona nusxadagi san'at asaridir.</p>
+        </div>
+    </section>
+
+    <main id="mahsulotlar" class="container">
+        <h3>Hunarmandchilik namunalari</h3>
+        
+        <!-- Filtrlash tugmalari -->
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">Barchasi</button>
+            <button class="filter-btn" data-category="kulolchilik">Kulolchilik</button>
+            <button class="filter-btn" data-category="yogoch">Yog'och o'ymakorligi</button>
+            <button class="filter-btn" data-category="kashtachilik">Kashtachilik</button>
+        </div>
+
+        <!-- Mahsulotlar JS orqali shu yerga yuklanadi -->
+        <div id="gallery" class="grid"></div>
+    </main>
+
+    <footer id="aloqa">
+        <div class="container">
+            <p>Buyurtma va hamkorlik uchun: +998 90 123 45 67</p>
+            <p>&copy; 2026 Usta Qo'li. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
